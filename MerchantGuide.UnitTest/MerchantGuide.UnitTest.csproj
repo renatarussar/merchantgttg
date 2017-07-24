@@ -49,6 +49,7 @@
     <Compile Include="IntergalacticUnitTest.cs" />
     <Compile Include="MaterialTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BinaryNumeralTest.cs" />
     <Compile Include="RomanNumeralTest.cs" />
   </ItemGroup>
   <ItemGroup>

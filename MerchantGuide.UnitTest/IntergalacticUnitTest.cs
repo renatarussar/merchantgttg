@@ -17,7 +17,7 @@ namespace MerchantGuide.UnitTest
 
             Assert.IsNotNull(iu);
             Assert.IsTrue(iu.Name == name);
-            Assert.IsTrue(iu.RomanValue.AbsoluteValue == 10);
+            Assert.IsTrue(iu.UnitValue.AbsoluteValue == 10);
         }
 
         [Test]

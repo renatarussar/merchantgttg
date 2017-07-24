@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace MerchantGuide.Model
 {
-    public class RomanNumeral
+    public class RomanNumeral : NumeralBase
     {
         public enum RomanSymbol
         {
@@ -17,23 +17,11 @@ namespace MerchantGuide.Model
             Null = 0
         }
 
-        public string Text { get; private set; }
-        public int AbsoluteValue { get; private set; }
-
-        public RomanNumeral(string text)
+        public RomanNumeral(string text) : base(text)
         {
-            if (NumberIsValid(text))
-            {
-                Text = text;
-                AbsoluteValue = CalculateAbsoluteValue();
-            }
-            else
-            {
-                throw new ArgumentException("Invalid value for: RomanNumeral.Text");
-            }
         }
 
-        private int CalculateAbsoluteValue()
+        public override int CalculateAbsoluteValue()
         {
             int resultValue = 0;
             RomanSymbol current = RomanSymbol.Null;
@@ -54,7 +42,7 @@ namespace MerchantGuide.Model
             return resultValue;
         }
 
-        static private bool NumberIsValid(string text)
+        public override bool NumberIsValid(string text)
         {
             bool result = false;
 

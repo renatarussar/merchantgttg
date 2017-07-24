@@ -5,11 +5,11 @@ namespace MerchantGuide.Model
     public class IntergalacticUnit
     {
         public string Name { get; set; }
-        public RomanNumeral RomanValue { get; set; }
+        public NumeralBase UnitValue { get; set; }
 
         public IntergalacticUnit(string name, string value)
         {
-            RomanNumeral r;
+            NumeralBase r;
             if (string.IsNullOrWhiteSpace(name))
             {
                 throw new ArgumentException("Invalid value for: IntergalacticUnit.Name");
@@ -25,7 +25,7 @@ namespace MerchantGuide.Model
             }
 
             Name = name;
-            RomanValue = r;
+            UnitValue = r;
         }
     }
 }

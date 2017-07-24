@@ -103,13 +103,13 @@ namespace MerchantGuide.Controller
 
         private void ProcessIUnitQuestionNote(List<string> intergalacticUnitNames)
         {
-            RomanNumeral iUnitValue = new RomanNumeral(guide.GenerateRomanQueryString(intergalacticUnitNames));
+            NumeralBase iUnitValue = new NumeralBase(guide.GenerateRomanQueryString(intergalacticUnitNames));
             responses.Add(OutputHelper.GenerateIUnitResponse(intergalacticUnitNames.ToArray(), iUnitValue.AbsoluteValue));
         }
 
         private void ProcessMaterialQuestionNote(List<string> intergalacticUnitNames, string materialName)
         {
-            RomanNumeral iUnitValue = new RomanNumeral(guide.GenerateRomanQueryString(intergalacticUnitNames));
+            NumeralBase iUnitValue = new NumeralBase(guide.GenerateRomanQueryString(intergalacticUnitNames));
             Material material = guide.FindMaterialByName(materialName);
             double totalCredits = (double)iUnitValue.AbsoluteValue * material.CreditValue;
             responses.Add(OutputHelper.GenerateMaterialResponse(intergalacticUnitNames.ToArray(), materialName, totalCredits));

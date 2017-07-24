@@ -44,9 +44,9 @@
     <Compile Include="Guide.cs" />
     <Compile Include="IntergalacticUnit.cs" />
     <Compile Include="Material.cs" />
-    <Compile Include="INumeralModel.cs" />
-    <Compile Include="NumeralModel.cs" />
+    <Compile Include="NumeralBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BinaryNumeral.cs" />
     <Compile Include="RomanNumeral.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

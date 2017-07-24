@@ -1,0 +1,14 @@
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\bin\Debug\MerchantGuide.UnitTest.dll
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\bin\Debug\MerchantGuide.UnitTest.pdb
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\bin\Debug\MerchantGuide.Controller.dll
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\bin\Debug\MerchantGuide.exe
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\bin\Debug\MerchantGuide.Model.dll
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\bin\Debug\nunit.framework.dll
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\bin\Debug\MerchantGuide.Controller.pdb
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\bin\Debug\MerchantGuide.Model.pdb
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\bin\Debug\MerchantGuide.pdb
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\bin\Debug\MerchantGuide.exe.config
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\bin\Debug\nunit.framework.xml
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\obj\Debug\MerchantGuide.UnitTest.csprojResolveAssemblyReference.cache
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\obj\Debug\MerchantGuide.UnitTest.dll
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.UnitTest\obj\Debug\MerchantGuide.UnitTest.pdb

@@ -64,7 +64,7 @@ namespace MerchantGuide.Model
                 {
                     if (IntergalacticUnitAlreadyDefined(intergalacticUnitName))
                     {
-                        romanQuestion += intergalacticUnitList.Find(x => x.Name == intergalacticUnitName).RomanValue.Text;
+                        romanQuestion += intergalacticUnitList.Find(x => x.Name == intergalacticUnitName).UnitValue.Text;
                     }
                     else
                     {

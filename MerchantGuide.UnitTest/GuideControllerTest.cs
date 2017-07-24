@@ -73,8 +73,8 @@ namespace MerchantGuide.UnitTest
             Assert.IsNotNull(guideController.Guide.IntergalacticUnitList);
             Assert.AreEqual(1, guideController.Guide.IntergalacticUnitList.Count);
             Assert.AreEqual("pish", guideController.Guide.IntergalacticUnitList[0].Name);
-            Assert.AreEqual(new RomanNumeral("X").AbsoluteValue, guideController.Guide.IntergalacticUnitList[0].RomanValue.AbsoluteValue);
-            Assert.AreEqual((int)RomanNumeral.RomanSymbol.X, guideController.Guide.IntergalacticUnitList[0].RomanValue.AbsoluteValue);
+            Assert.AreEqual(new RomanNumeral("X").AbsoluteValue, guideController.Guide.IntergalacticUnitList[0].UnitValue.AbsoluteValue);
+            Assert.AreEqual((int)RomanNumeral.RomanSymbol.X, guideController.Guide.IntergalacticUnitList[0].UnitValue.AbsoluteValue);
         }
 
         [Test]

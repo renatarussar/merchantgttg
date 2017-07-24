@@ -1,0 +1,7 @@
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.Controller\bin\Release\MerchantGuide.Controller.dll
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.Controller\bin\Release\MerchantGuide.Controller.pdb
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.Controller\bin\Release\MerchantGuide.Model.dll
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.Controller\bin\Release\MerchantGuide.Model.pdb
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.Controller\obj\Release\MerchantGuide.Controller.csprojResolveAssemblyReference.cache
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.Controller\obj\Release\MerchantGuide.Controller.dll
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.Controller\obj\Release\MerchantGuide.Controller.pdb

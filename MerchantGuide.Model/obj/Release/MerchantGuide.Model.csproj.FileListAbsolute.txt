@@ -1,0 +1,4 @@
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.Model\bin\Release\MerchantGuide.Model.dll
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.Model\bin\Release\MerchantGuide.Model.pdb
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.Model\obj\Release\MerchantGuide.Model.dll
+D:\temp\tw\Nova pasta\merchantgttg\MerchantGuide.Model\obj\Release\MerchantGuide.Model.pdb
